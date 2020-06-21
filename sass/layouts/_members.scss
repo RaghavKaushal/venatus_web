@@ -1,0 +1,21 @@
+.members {
+    padding: 15rem;
+    background-color: #efef;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__text {}
+
+    &__card {
+        &--1st {}
+
+        &--2nd {}
+
+        &--3rd {}
+
+        &--4th {}
+    }
+}

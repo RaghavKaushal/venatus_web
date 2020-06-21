@@ -1,0 +1,23 @@
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  background-color: transparent;
+  // box-shadow: .2rem .2rem 1rem rgba($color-secondary, 0.5);
+
+  a {
+    color: wheat;
+    text-decoration: none;
+  }
+
+  &__items {
+    margin: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
+}
