@@ -4,3 +4,26 @@ body {
   /*font-size: 16px;*/
   line-height: 1.7;
 }
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5rem;
+  background-image: linear-gradient(to right bottom,
+      #B7F8DB,
+      #50A7C2);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all .2s;
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
+}

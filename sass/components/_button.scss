@@ -54,4 +54,12 @@
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
   }
+
+  &--1st {
+    padding: 1rem 2rem;
+  }
+
+  &--event {
+    text-align: center;
+  }
 }

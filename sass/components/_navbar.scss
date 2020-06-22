@@ -4,11 +4,15 @@
   justify-content: space-evenly;
   color: white;
   background-color: transparent;
+
+
   // box-shadow: .2rem .2rem 1rem rgba($color-secondary, 0.5);
 
   a {
     color: wheat;
     text-decoration: none;
+      position: relative;
+  z-index: 10;
   }
 
   &__items {
@@ -20,4 +24,14 @@
   &__logo {
     margin-right: auto;
   }
+}
+
+.parent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  position: relative;
+  z-index: 1
 }

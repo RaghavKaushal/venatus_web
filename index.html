@@ -7,28 +7,32 @@
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
     <title>Venatus | The Gaming Society of NSUT</title>
   </head>
   <body>
-    <ul class="navbar">
-      <li class="navbar__items navbar__logo"><a href="">Logo</a></li>
-      <li class="navbar__items"><a href="">About Us</a></li>
-      <li class="navbar__items"><a href="">Events</a></li>
-      <li class="navbar__items"><a href="">Members</a></li>
-      <li class="navbar__items"><a href="">Contact us</a></li>
-    </ul>
+    <div class="parent">
+      <ul class="navbar">
+        <li class="navbar__items navbar__logo"><a href="">Logo</a></li>
+        <li class="navbar__items"><a href="">About Us</a></li>
+        <li class="navbar__items"><a href="">Events</a></li>
+        <li class="navbar__items"><a href="">Members</a></li>
+        <li class="navbar__items"><a href="">Contact us</a></li>
+      </ul>
+    </div>
+    
     <header class="header">
       <div class="header__title u-margin-bottom-small">
         Venatus - The gaming society of NSUT
       </div>
+      <div class="header__secondarytitle u-margin-bottom-medium">#GameOn</div>
       <a href="#" class="header__button btn btn--white">
         Explore More
       </a>
     </header>
 
     <section class="aboutus">
-      <div class="aboutus__title u-margin-bottom-small">
+      <div class="heading u-margin-bottom-small">
         About Us
       </div>
       <div class="aboutus__text">
@@ -77,7 +81,7 @@
     </section>
 
     <section class="events">
-      <div class="events__title u-margin-bottom-small">EVENTS</div>
+      <div class="heading u-margin-bottom-small">EVENTS</div>
       <div class="events__text u-margin-bottom-small">
         We host a number of events Lorem ipsum dolor sit amet consectetur
         adipisicing elit. In laborum est nesciunt quidem aspernatur deserunt,
@@ -86,19 +90,39 @@
       </div>
       <div class="events__card">
         <div class="events__card--past">
-          PAST EVENTS
+          <div class="events__card--image events__card--image-past">
+            &nbsp;
+          </div>
+          <div class="events__card--title">
+            PAST EVENTS
+          </div>
+          <div class="wrapper">
+            <a href="#" class="btn btn--event">
+              Learn More
+            </a>
+          </div>
         </div>
         <div class="events__card--future">
-          FUTURE EVENTS
+          <div class="events__card--image events__card--image-past">
+            &nbsp;
+          </div>
+          <div class="events__card--title">
+            <span class="events__card--title-past">FUTURE EVENTS</span>
+          </div>
+          <div class="wrapper">
+            <a href="#" class="btn btn--event">
+              Learn More
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="members">
-      <div class="members__title">
+      <div class="heading">
         MEMBERS
       </div>
-      <div class="members__text">
+      <div class="members__text u-margin-bottom-medium">
         Every year we recruit thorugh a process of interview Lorem ipsum, dolor
         sit amet consectetur adipisicing elit. Omnis tempora, incidunt
         architecto eligendi consequuntur deserunt fugit voluptatibus quis
@@ -106,10 +130,68 @@
         perferendis omnis officia.
       </div>
       <div class="members__card">
-        <div class="members__card--1st">1st</div>
-        <div class="members__card--2rd">2nd</div>
-        <div class="members__card--3rd">3rd</div>
-        <div class="members__card--4th">4th</div>
+        <div class="members__card--1st">
+          <div class="members__card__image members__card--1st-image">
+            &nbsp;
+          </div>
+          <h4 class="members__card--heading">
+            <span class="members__card__heading-span card__heading-span--1">
+              1st Years
+            </span>
+          </h4>
+          <div class="wrapper">
+            <a href="#" class="btn btn--1st">Learn More</a>
+          </div>
+        </div>
+        <!-- 2nd yrs -->
+        <div class="members__card--2nd">
+          <div class="members__card__image members__card--2nd-image">
+            &nbsp;
+          </div>
+          <h4 class="members__card--heading">
+            <span class="members__card__heading-span card__heading-span--1">
+              2nd Years
+            </span>
+          </h4>
+          <div class="wrapper">
+            <a href="#" class="btn btn--1st">Learn More</a>
+          </div>
+        </div>
+        <!-- 3rd yrs -->
+        <div class="members__card--3rd">
+          <div class="members__card__image members__card--1st-image">
+            &nbsp;
+          </div>
+          <h4 class="members__card--heading">
+            <span class="members__card__heading-span card__heading-span--1">
+              3rd Years
+            </span>
+          </h4>
+          <div class="wrapper">
+            <a href="#" class="btn btn--1st">Learn More</a>
+          </div>
+        </div>
+        <!-- 4th yrs -->
+        <div class="members__card--4th">
+          <div class="members__card__image members__card--1st-image">
+            &nbsp;
+          </div>
+          <h4 class="members__card--heading">
+            <span class="members__card__heading-span card__heading-span--1">
+              4th Years
+            </span>
+          </h4>
+          <div class="wrapper">
+            <a href="#" class="btn btn--1st">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer__icons"></div>
+      <div class="footer__text">
+        &copy; 2020 Venatus
       </div>
     </section>
   </body>
